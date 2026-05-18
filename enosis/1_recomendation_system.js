@@ -1,6 +1,11 @@
+// ভিডিওগুলোকে category অনুযায়ী group করে, watched category গুলোকে relevance অনুযায়ী এবং 
+// unwatched category গুলোকে alphabetical order এ সাজিয়ে final recommended video list return করতে হবে।
+
 /* =========================
    INPUT
 ========================= */
+
+
 
 const watchedCategories = [
     "Code",
@@ -142,3 +147,10 @@ const output = getRecommendedVideos(
 ========================= */
 
 console.log(output);
+
+
+// The time complexity is O(n log n) due to sorting the videos and categories.
+
+// The space complexity is O(n) because we store grouped videos, maps, and the final result.
+
+// This solution is already optimized asymptotically because sorting is required by the problem constraints.

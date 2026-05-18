@@ -64,3 +64,6 @@ function textjustification(words, maxWidth) {
 const output = textjustification(["This", "is", "an", "example", "of", "text", "justification."],16)
 
 console.log(output)
+
+// TC - O(total number of characters in output = m)
+// SC - O(m)
